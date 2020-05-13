@@ -1,0 +1,18 @@
+Fitter Status : Successful - Mon Jul 01 13:42:12 2019
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : SDRAM_Project
+Top-level Entity Name : SDRAM_Project
+Family : MAX 10
+Device : 10M50DAF484C7G
+Timing Models : Final
+Total logic elements : 501 / 49,760 ( 1 % )
+    Total combinational functions : 442 / 49,760 ( < 1 % )
+    Dedicated logic registers : 271 / 49,760 ( < 1 % )
+Total registers : 326
+Total pins : 126 / 360 ( 35 % )
+Total virtual pins : 0
+Total memory bits : 7,680 / 1,677,312 ( < 1 % )
+Embedded Multiplier 9-bit elements : 0 / 288 ( 0 % )
+Total PLLs : 1 / 4 ( 25 % )
+UFM blocks : 0 / 1 ( 0 % )
+ADC blocks : 0 / 2 ( 0 % )

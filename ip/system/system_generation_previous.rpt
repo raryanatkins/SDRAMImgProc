@@ -1,0 +1,48 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate "C:\Users\Ryan\Desktop\UC Davis\EEC 180B\SDRAM_Project\ip\system.qsys" --block-symbol-file --output-directory="C:\Users\Ryan\Desktop\UC Davis\EEC 180B\SDRAM_Project\ip\system" --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading ip/system.qsys
+Progress: Reading input file
+Progress: Adding altpll_0 [altpll 17.1]
+Progress: Parameterizing module altpll_0
+Progress: Adding clk_0 [clock_source 17.1]
+Progress: Parameterizing module clk_0
+Progress: Adding new_sdram_controller_0 [altera_avalon_new_sdram_controller 17.1]
+Progress: Parameterizing module new_sdram_controller_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: system.new_sdram_controller_0: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Warning: system.altpll_0: altpll_0.pll_slave must be connected to an Avalon-MM master
+Warning: system.: You have exported the interface new_sdram_controller_0.s1 but not its associated clock interface.  Export the driver of new_sdram_controller_0.clk
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate "C:\Users\Ryan\Desktop\UC Davis\EEC 180B\SDRAM_Project\ip\system.qsys" --synthesis=VERILOG --output-directory="C:\Users\Ryan\Desktop\UC Davis\EEC 180B\SDRAM_Project\ip\system\synthesis" --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading ip/system.qsys
+Progress: Reading input file
+Progress: Adding altpll_0 [altpll 17.1]
+Progress: Parameterizing module altpll_0
+Progress: Adding clk_0 [clock_source 17.1]
+Progress: Parameterizing module clk_0
+Progress: Adding new_sdram_controller_0 [altera_avalon_new_sdram_controller 17.1]
+Progress: Parameterizing module new_sdram_controller_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: system.new_sdram_controller_0: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Warning: system.altpll_0: altpll_0.pll_slave must be connected to an Avalon-MM master
+Warning: system.: You have exported the interface new_sdram_controller_0.s1 but not its associated clock interface.  Export the driver of new_sdram_controller_0.clk
+Info: system: Generating system "system" for QUARTUS_SYNTH
+Warning: Can't contact license server "28333@license.engr.ucdavis.edu" -- this server will be ignored.
+Info: altpll_0: "system" instantiated altpll "altpll_0"
+Info: new_sdram_controller_0: Starting RTL generation for module 'system_new_sdram_controller_0'
+Info: new_sdram_controller_0:   Generation command is [exec C:/intelfpga_lite/17.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/17.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/17.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- C:/intelfpga_lite/17.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=system_new_sdram_controller_0 --dir=C:/Users/Ryan/AppData/Local/Temp/alt7851_5914191174239855072.dir/0004_new_sdram_controller_0_gen/ --quartus_dir=C:/intelfpga_lite/17.1/quartus --verilog --config=C:/Users/Ryan/AppData/Local/Temp/alt7851_5914191174239855072.dir/0004_new_sdram_controller_0_gen//system_new_sdram_controller_0_component_configuration.pl  --do_build_sim=0  ]
+Info: new_sdram_controller_0: Done RTL generation for module 'system_new_sdram_controller_0'
+Info: new_sdram_controller_0: "system" instantiated altera_avalon_new_sdram_controller "new_sdram_controller_0"
+Info: rst_controller: "system" instantiated altera_reset_controller "rst_controller"
+Info: system: Done "system" with 4 modules, 7 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

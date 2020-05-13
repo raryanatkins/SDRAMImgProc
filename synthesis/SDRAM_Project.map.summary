@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Mon Jul 01 13:42:00 2019
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : SDRAM_Project
+Top-level Entity Name : SDRAM_Project
+Family : MAX 10
+Total logic elements : 541
+    Total combinational functions : 440
+    Dedicated logic registers : 311
+Total registers : 311
+Total pins : 126
+Total virtual pins : 0
+Total memory bits : 7,680
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1
+UFM blocks : 0
+ADC blocks : 0
